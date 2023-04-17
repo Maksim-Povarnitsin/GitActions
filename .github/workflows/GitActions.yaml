@@ -49,7 +49,7 @@ jobs:
       run: dotnet restore
 
     - name: Pub get
-       run: dart pub get
+      run: dart pub get
 
     - name: Build
       run: dotnet build --configuration Release --no-restore
