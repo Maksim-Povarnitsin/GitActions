@@ -25,28 +25,26 @@ on:
       
 jobs:
   build:
-    name: Build 
+    name: Build and upload artifact
     runs-on: windows-latest
-    env:
-      DOTNET_CLI_TELEMETRY_OPTOUT: 1
-      DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 1
-      DOTNET_NOLOGO: true
-      DOTNET_GENERATE_ASPNET_CERTIFICATE: false
-      DOTNET_ADD_GLOBAL_TOOLS_TO_PATH: false
-      DOTNET_MULTILEVEL_LOOKUP: 0
-      DOTNET_SYSTEM_CONSOLE_ALLOW_ANSI_COLOR_REDIRECTION: true
-      TERM: xterm
-
     steps:
-    - uses: actions/checkout@v3
-      
-    - name: Setup .NET SDK
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: 6.0.x
+      - name: Checkout
+        uses: actions/checkout@v3
 
-    - name: Restore
-      run: dotnet restore
+      - name: Install Setup .NET Core SDK ${{ matrix.dotnet-version }}
+        uses: subosito/flutter-action@v2
 
-    - name: Build
-      run: dotnet build --configuration Release --no-restore
+      - name: Build
+        run: dotnet build -o .\outputs\test1.zip
+
+      - name: Upload build
+        uses: actions/upload-artifact@v3
+        with:
+          name: Build ${{ github.run_number }}
+          path: .\outputs\test1.zip
+
+      - name: Upload docs
+        uses: actions/upload-artifact@v3
+        with:
+          name: Docs ${{ github.run_number }}
+          path: .\outputs\test1.zip
