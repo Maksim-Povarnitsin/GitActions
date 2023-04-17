@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2023.3.4.0" projectFile="C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\docsGenerator.shfbproj" started="18.04.2023 2:37:12">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Default2022&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022&#39;
+Loading and initializing plug-ins...
+Website Table of Contents Generator Version 2023.3.4.0
+Copyright &#169; 2006-2023, Eric Woodruff, All Rights Reserved
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\Comments\comments.xml
+Source: C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\bin\Debug\net6.0\LabMiAu.dll
+    Found assembly &#39;C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\bin\Debug\net6.0\LabMiAu.dll&#39;
+
+Copying XML comments files
+    C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\Comments\comments.xml -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\comments.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Английский (США))...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+‘Ў&#174;аЄ&#160; &#173;&#160;з&#160;в&#160; 18.04.2023 2:37:12.
+Џа&#174;ҐЄв &quot;C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj&quot; ў г&#167;&#171;Ґ 1 (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+PrepareForBuild:
+  ‘&#174;&#167;&#164;&#160;&#173;ЁҐ Є&#160;в&#160;&#171;&#174;Ј&#160; &quot;obj\Debug\&quot;.
+GenerateBindingRedirects:
+  ЌҐв ЇаҐ&#164;&#171;&#160;Ј&#160;Ґ&#172;ле ЇҐаҐ&#173;&#160;Їа&#160;ў&#171;Ґ&#173;Ё&#169; ЇаЁўп&#167;ЄЁ &#174;в ResolveAssemblyReferences.
+GenerateRefInfo:
+  Microsoft.Build (v17.4.0+18d5aef85920037c9d6ff49b1215a4daf515197f)
+  c Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Mvc.Razor (Microsoft.AspNetCore.Mvc.Razor, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by LabMiAu [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.ComponentModel (System.ComponentModel, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by Microsoft.EntityFrameworkCore [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Mvc.ViewFeatures (Microsoft.AspNetCore.Mvc.ViewFeatures, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by LabMiAu [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Razor (Microsoft.AspNetCore.Razor, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by LabMiAu [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Razor.Runtime (Microsoft.AspNetCore.Razor.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by LabMiAu [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Mvc.TagHelpers (Microsoft.AspNetCore.Mvc.TagHelpers, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by LabMiAu [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Mvc.Abstractions (Microsoft.AspNetCore.Mvc.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by LabMiAu [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Linq.Expressions (System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by LabMiAu [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Http.Features (Microsoft.AspNetCore.Http.Features, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by LabMiAu [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections (System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by LabMiAu [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Html.Abstractions (Microsoft.AspNetCore.Html.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by LabMiAu [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.ComponentModel.Annotations (System.ComponentModel.Annotations, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by LabMiAu [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.ComponentModel.TypeConverter (System.ComponentModel.TypeConverter, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by Microsoft.EntityFrameworkCore [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Runtime.Loader (System.Runtime.Loader, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by LabMiAu [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Mvc.Core (Microsoft.AspNetCore.Mvc.Core, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by LabMiAu [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.AddAsync(System.Void,Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry`1&lt;type parameter.TEntity&gt;) [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.AddAsync(System.Void,Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry) [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void,System.Object) [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void,System.Object,System.Type) [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void) [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void,type parameter.TEntity) [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: Microsoft.EntityFrameworkCore.DbContext.FromExpression(System.Void) [C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj]
+  Wrote information on 5 namespaces, 10 types, and 42 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+‘Ў&#174;аЄ&#160; Їа&#174;ҐЄв&#160; &quot;C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateRefInfo-a73b3c07-5010-421f-8140-c00f580d7bef.proj&quot; &#167;&#160;ўҐаиҐ&#173;&#160; (жҐ&#171;ҐўлҐ &#174;ЎкҐЄвл Ї&#174; г&#172;&#174;&#171;з&#160;&#173;Ёо).
+    Last step completed in 00:00:01,8762
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00,0150
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00,0140
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00,0135
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateInheritedDocs.proj]
+C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:LabMiAu.Migrations.addUsersToDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;
+C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:LabMiAu.Migrations.addUsersToDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;
+C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:LabMiAu.Migrations.addUsersToDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)&#39;
+C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:LabMiAu.Migrations.addUsersKeyToDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;
+C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:LabMiAu.Migrations.addUsersKeyToDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;
+C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:LabMiAu.Migrations.addUsersKeyToDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)&#39;
+C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:LabMiAu.Migrations.addPropToUsersAndAddFirms.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;
+C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:LabMiAu.Migrations.addPropToUsersAndAddFirms.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;
+C:\Main\“зҐЎ&#160;\‹&#160;Ўл\’ђЏЏ_Ља&#160;ўҐж\LabMiAu\LabMiAu\DocsGenerator\Help\Working\GenerateInheritedDocs.proj(28,3): warning GID0004: No comments found for member &#39;M:LabMiAu.Migrations.addPropToUsersAndAddFirms.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)&#39;
+    Last step completed in 00:00:00,5916
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,0100
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:00,0560
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00,0080
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+<plugIn name="Website Table of Contents Generator" behavior="Before" priority="1000">
+Loading TOC info and adding unique IDs to parent nodes
+</plugIn>Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: ShowMissingComponent: [N:LabMiAu.Common] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:LabMiAu.Common.GoogleApiHelper.ApplicationName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:LabMiAu.Common.GoogleApiHelper.ClientId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:LabMiAu.Common.GoogleApiHelper.ClientSecret] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Common.GoogleApiHelper.GetOauthUri(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:LabMiAu.Common.GoogleApiHelper.OauthUri] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:LabMiAu.Common.GoogleApiHelper.RedirectUri] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:LabMiAu.Common.GoogleApiHelper.Scopes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:LabMiAu.Controllers] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Controllers.HomeController.#ctor(Microsoft.Extensions.Logging.ILogger{LabMiAu.Controllers.HomeController})] Missing &lt;param name=&quot;logger&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Controllers.HomeController.Authenticate(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Controllers.HomeController.Error] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Controllers.HomeController.Error] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Controllers.HomeController.Index] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Controllers.HomeController.Index] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Controllers.HomeController.OauthCallback(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Controllers.HomeController.Privacy] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Controllers.HomeController.Privacy] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Controllers.UserController.#ctor(LabMiAu.Data.ApplicationDbContext)] Missing &lt;param name=&quot;db&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Controllers.UserController.Index] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:LabMiAu.Data] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:LabMiAu.Data.ApplicationDbContext] Member ID URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddAsync(System.Void,Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:LabMiAu.Data.ApplicationDbContext] Member ID URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddAsync``1(System.Void,Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry{``0})&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:LabMiAu.Data.ApplicationDbContext] Member ID URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void,System.Object)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:LabMiAu.Data.ApplicationDbContext] Member ID URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void,System.Object,System.Type)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:LabMiAu.Data.ApplicationDbContext] Member ID URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync``1(System.Void)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:LabMiAu.Data.ApplicationDbContext] Member ID URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync``1(System.Void,``0)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:LabMiAu.Data.ApplicationDbContext] Member ID URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FromExpression``1(System.Void)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:LabMiAu.Data.ApplicationDbContext] Member ID URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddAsync(System.Void,Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:LabMiAu.Data.ApplicationDbContext] Member ID URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddAsync``1(System.Void,Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry{``0})&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:LabMiAu.Data.ApplicationDbContext] Member ID URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void,System.Object)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:LabMiAu.Data.ApplicationDbContext] Member ID URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Void,System.Object,System.Type)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:LabMiAu.Data.ApplicationDbContext] Member ID URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync``1(System.Void)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:LabMiAu.Data.ApplicationDbContext] Member ID URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync``1(System.Void,``0)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:LabMiAu.Data.ApplicationDbContext] Member ID URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FromExpression``1(System.Void)&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [P:LabMiAu.Data.ApplicationDbContext.Firms] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:LabMiAu.Data.ApplicationDbContext.Users] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:LabMiAu.Migrations] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addPropToUsersAndAddFirms.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addPropToUsersAndAddFirms.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;param name=&quot;modelBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addPropToUsersAndAddFirms.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addPropToUsersAndAddFirms.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;param name=&quot;migrationBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addPropToUsersAndAddFirms.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addPropToUsersAndAddFirms.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;param name=&quot;migrationBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addUsersKeyToDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addUsersKeyToDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;param name=&quot;modelBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addUsersKeyToDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addUsersKeyToDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;param name=&quot;migrationBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addUsersKeyToDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addUsersKeyToDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;param name=&quot;migrationBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addUsersToDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addUsersToDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;param name=&quot;modelBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addUsersToDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addUsersToDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;param name=&quot;migrationBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addUsersToDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:LabMiAu.Migrations.addUsersToDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;param name=&quot;migrationBuilder&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:LabMiAu.Models] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:LabMiAu.Models.Company] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:LabMiAu.Models.Company.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:LabMiAu.Models.Company.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:LabMiAu.Models.ErrorViewModel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:LabMiAu.Models.ErrorViewModel.RequestId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:LabMiAu.Models.ErrorViewModel.ShowRequestId] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:LabMiAu.Models.User] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:LabMiAu.Models.User.Age] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:LabMiAu.Models.User.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:LabMiAu.Models.User.Name] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:LabMiAu.Models.User.TestProperty] Missing &lt;summary&gt; documentation
+Processed 76 topic(s)
+68 warning(s)
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 2 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
+ResolveReferenceLinksComponent: 491 entries added to the member ID URL cache.  New cache size: 491 entries
+<plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
+Generating TOC fragment files
+</plugIn>    Last step completed in 00:00:02,6849
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\css\bulma.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css.map -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\css\bulma.css.map
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.min.css -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\css\bulma.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.css -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\css\font-awesome.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.min.css -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\css\font-awesome.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ja-JP.css -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\css\ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ko-KR.css -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\css\ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\presentationStyle.css -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\css\presentationStyle.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\vs.min.css -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\css\vs.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-CN.css -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\css\zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-TW.css -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\css\zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\icons\favicon.ico -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\clipboard.min.js -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\highlight.min.js -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\scripts\highlight.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\jquery-3.5.1.min.js -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\presentationStyle.js -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\scripts\presentationStyle.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.ttf -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\webfonts\fa-brands-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.woff2 -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\webfonts\fa-brands-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.ttf -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\webfonts\fa-regular-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.woff2 -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\webfonts\fa-regular-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.ttf -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\webfonts\fa-solid-900.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.woff2 -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\webfonts\fa-solid-900.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.ttf -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\webfonts\fa-v4compatibility.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.woff2 -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\webfonts\fa-v4compatibility.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\GeneralError.html -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\GeneralError.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\index.html -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\PageNotFound.html -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\PageNotFound.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\search.html -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.aspx -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Main\Учеба\Лабы\ТРПП_Кравец\LabMiAu\LabMiAu\DocsGenerator\Help\Working\Output\Website\Web.Config
+    Last step completed in 00:00:00,0230
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:00,0530
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 177 files for the website content
+    Last step completed in 00:00:00,1005
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,0185
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 18.04.2023 2:37:17.  Total time: 00:00:05,7013
+
+</buildStep>
+</shfbBuild>
