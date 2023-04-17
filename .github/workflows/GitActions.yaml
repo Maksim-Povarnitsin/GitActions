@@ -25,8 +25,8 @@ on:
       
 jobs:
   build:
-    name: Build
-    runs-on: ubuntu-latest
+    name: Build 
+    runs-on: windows-latest
     env:
       DOTNET_CLI_TELEMETRY_OPTOUT: 1
       DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 1
@@ -37,7 +37,7 @@ jobs:
       DOTNET_SYSTEM_CONSOLE_ALLOW_ANSI_COLOR_REDIRECTION: true
       TERM: xterm
 
-   steps:
+    steps:
     - uses: actions/checkout@v3
       
     - name: Setup .NET SDK
@@ -48,11 +48,5 @@ jobs:
     - name: Restore
       run: dotnet restore
 
-    - name: Pub get
-      run: dart pub get
-
     - name: Build
       run: dotnet build --configuration Release --no-restore
-
-    - name: Generate docs
-      run: dart doc
