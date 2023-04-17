@@ -25,7 +25,7 @@ on:
       
 jobs:
   build:
-    name: Build
+    name: Build 
     runs-on: ubuntu-latest
     env:
       DOTNET_CLI_TELEMETRY_OPTOUT: 1
@@ -38,19 +38,18 @@ jobs:
       TERM: xterm
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v3
       
     - name: Setup .NET SDK
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: 6.0.x
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 7.0.x
 
     - name: Restore
-       run: dotnet restore
-
-    - name: Pub get
-       run: dart pub get
+      run: dotnet restore
 
     - name: Build
-        run: dotnet build --configuration Release --no-restore
+      run: dotnet build --configuration Release --no-restore
+
+    - name: Test
+      run: dotnet test
