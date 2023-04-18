@@ -45,14 +45,6 @@ jobs:
       - name: Build
         run: dotnet build --configuration Release --no-restore
 
-      - name: Coverage Summary Report
-        uses: irongut/CodeCoverageSummary@v1.2.0
-        with:
-          filename: comments.xml
-          badge: true
-          format: 'md'
-          output: 'both'
-
       - name: Upload build
         uses: actions/upload-artifact@v3
         with:
