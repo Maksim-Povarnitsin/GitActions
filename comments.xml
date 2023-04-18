@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LabMiAu</name>
+    </assembly>
+    <members>
+        <member name="T:LabMiAu.Common.GoogleApiHelper">
+            <summary>
+            Хелпер - формирует строку для аутентификации, хранит данные для запроса на аутентификацию
+            </summary>
+            <param name="ApplicationName">Имя проекта в google</param>
+            <param name="ClientId">Идентификатор клиента</param>
+            <param name="ClientSecret">Секрет клиента</param>
+            <param name="RedirectUri">URI, куда будет возвращаться ответ от google</param>
+            <param name="OauthUri">Строка для авторизации</param>
+            <param name="Scopes">Параметры</param>
+        </member>
+        <member name="M:LabMiAu.Common.GoogleApiHelper.GetOauthUri(System.String)">
+            <summary>
+            Колл бэк метод - принимает результат аутентификации
+            </summary>
+            <param name="extraParam">Имя пользователя</param>
+        </member>
+        <member name="T:LabMiAu.Controllers.HomeController">
+            <summary>
+            Базовый контроллер
+            </summary>
+        </member>
+        <member name="M:LabMiAu.Controllers.HomeController.Authenticate(System.String)">
+            <summary>
+            Метод аутентификации
+            </summary>
+            <param name="email">Имя пользователя(изначально думал, что сюда нужен именно email)</param>
+        </member>
+        <member name="M:LabMiAu.Controllers.HomeController.OauthCallback(System.String,System.String,System.String)">
+            <summary>
+            Колл бэк метод - принимает результат аутентификации
+            </summary>
+            <param name="code">Токен в случае успеха</param>
+            <param name="error">Сообщение ошибки</param>
+            <param name="state">Имя пользователя</param>
+        </member>
+        <member name="T:LabMiAu.Controllers.UserController">
+            <summary>
+            Контроллер пользователя(использовал для добавления элементов в таблицу пользователь, а так же ее вывода)
+            </summary>
+        </member>
+        <member name="M:LabMiAu.Controllers.UserController.Index">
+            <summary>
+            Вывод 
+            </summary>
+        </member>
+        <member name="T:LabMiAu.Data.ApplicationDbContext">
+            <summary>
+            Контекст БД
+            </summary>
+        </member>
+        <member name="M:LabMiAu.Data.ApplicationDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{LabMiAu.Data.ApplicationDbContext})">
+            <summary>
+            Конструктор контекста БД
+            </summary>
+            <param name="options">Опции конструктору контекста</param>
+        </member>
+        <member name="T:LabMiAu.Migrations.addUsersToDB">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addUsersToDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addUsersToDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addUsersToDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:LabMiAu.Migrations.addUsersKeyToDB">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addUsersKeyToDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addUsersKeyToDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addUsersKeyToDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:LabMiAu.Migrations.addPropToUsersAndAddFirms">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addPropToUsersAndAddFirms.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addPropToUsersAndAddFirms.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addPropToUsersAndAddFirms.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
