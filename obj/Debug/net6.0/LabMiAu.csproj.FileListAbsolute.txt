@@ -619,3 +619,13 @@ C:\Main\GitHub\GitActions\bin\Debug\net6.0\DocsGenerator\Help\fti\FTI_97.json
 C:\Main\GitHub\GitActions\bin\Debug\net6.0\DocsGenerator\Help\fti\FTI_98.json
 C:\Main\GitHub\GitActions\bin\Debug\net6.0\DocsGenerator\Help\fti\FTI_99.json
 C:\Main\GitHub\GitActions\bin\Debug\net6.0\DocsGenerator\Help\fti\FTI_Files.json
+C:\Main\GitHub\GitActions\bin\Debug\net6.0\docfxWin\docfx.deps.json
+C:\Main\GitHub\GitActions\bin\Debug\net6.0\docfxWin\docfx.runtimeconfig.json
+C:\Main\GitHub\GitActions\bin\Debug\net6.0\docfxWin\templates\default(zh-cn)\token.json
+C:\Main\GitHub\GitActions\bin\Debug\net6.0\docfxWin\templates\default\search-stopwords.json
+C:\Main\GitHub\GitActions\bin\Debug\net6.0\docfxWin\templates\default\token.json
+C:\Main\GitHub\GitActions\bin\Debug\net6.0\docfxWin\templates\pdf.default\search-stopwords.json
+C:\Main\GitHub\GitActions\bin\Debug\net6.0\docfxWin\templates\pdf.default\token.json
+C:\Main\GitHub\GitActions\bin\Debug\net6.0\docfxWin\templates\statictoc\search-stopwords.json
+C:\Main\GitHub\GitActions\bin\Debug\net6.0\docfxWin\templates\statictoc\token.json
+C:\Main\GitHub\GitActions\bin\Debug\net6.0\docfx_project\docfx.json
