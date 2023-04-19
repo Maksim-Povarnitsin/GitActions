@@ -4,24 +4,6 @@ on:
   push:
     branches:
       - main
-    paths-ignore:
-      - '**/*.md'
-      - '**/*.gitignore'
-      - '**/*.gitattributes'
-  pull_request:
-    branches:
-      - main
-    paths-ignore:
-      - '**/*.md'
-      - '**/*.gitignore'
-      - '**/*.gitattributes'
-  workflow_dispatch:
-    branches:
-      - main
-    paths-ignore:
-      - '**/*.md'
-      - '**/*.gitignore'
-      - '**/*.gitattributes'
       
 jobs:
   build:
@@ -50,15 +32,9 @@ jobs:
         with:
           name: Build ${{ github.run_number }}
           path: .\outputs\test1.zip
-
-      - name: Upload docs
-        uses: actions/upload-artifact@v3
-        with:
-          name: Docs ${{ github.run_number }}
-          path: .\outputs\test1.zip
-  deploy-docs:
-    name: Deploy Docs
-    needs: [Build]
+  Go-docs:
+    name: Go Docs
+    needs: [build]
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -68,9 +44,30 @@ jobs:
       uses: nikeee/docfx-action@v1.0.0
       with:
         args: docfx_project/docfx.json
-
+    
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs
+        publish_dir: ./_site
+  publish-docs:
+   name: Publish Docs
+   needs: [Go-docs]
+   runs-on: ubuntu-latest
+   steps:
+    - name: Chekout
+      uses: actions/checkout@v3
+      
+    - name: Dotnet Setup
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 6.0.x
+
+    - run: dotnet tool update -g docfx
+    - run: docfx docfx_project/docfx.json
+
+    - name: Upload build
+      uses: actions/upload-artifact@v3
+      with:
+        name: Build ${{ github.run_number }} 
+        path: ./_site
