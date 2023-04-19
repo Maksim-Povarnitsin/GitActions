@@ -3,6 +3,9 @@ using static System.Formats.Asn1.AsnWriter;
 
 namespace LabMiAu.Common
 {
+    /// <summary>
+    /// Хелпер
+    /// </summary>
     public static class GoogleApiHelper
     {
         public static string ApplicationName = "Google Api AspNetCoreMVC Web Client";
