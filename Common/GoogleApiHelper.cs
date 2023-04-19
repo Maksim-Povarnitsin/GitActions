@@ -4,7 +4,7 @@ using static System.Formats.Asn1.AsnWriter;
 namespace LabMiAu.Common
 {
     /// <summary>
-    /// Хелпер тест2
+    /// Хелпер тест3
     /// </summary>
     public static class GoogleApiHelper
     {
