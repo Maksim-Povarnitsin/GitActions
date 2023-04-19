@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Ce+13Eh19cfIsVHLW7A8mWnPxjxbbOENLN42KWhFDM+JUfdVJardMAPYlsVc7tsoemwnGt9HxL3KOVA8MjX5wQ==",
+  "dgSpecHash": "I4bAZbu5wQSfJySVnNtrn1VXypTaRtyxNurmMLtKaVpwNXXdBo4L1ZaWXF2Q4gHpKmjmidVORZsKX5flTpNN5Q==",
   "success": true,
-  "projectFilePath": "C:\\Main\\GitHub\\GitActions\\LabMiAu.csproj",
+  "projectFilePath": "C:\\Main\\GitActions\\LabMiAu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maksp\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\maksp\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\maksp\\.nuget\\packages\\docfx.console\\2.59.4\\docfx.console.2.59.4.nupkg.sha512",
     "C:\\Users\\maksp\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\maksp\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\maksp\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

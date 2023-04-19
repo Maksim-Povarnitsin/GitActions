@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Main\\GitHub\\GitActions\\LabMiAu.csproj": {}
+    "C:\\Main\\GitActions\\LabMiAu.csproj": {}
   },
   "projects": {
-    "C:\\Main\\GitHub\\GitActions\\LabMiAu.csproj": {
+    "C:\\Main\\GitActions\\LabMiAu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Main\\GitHub\\GitActions\\LabMiAu.csproj",
+        "projectUniqueName": "C:\\Main\\GitActions\\LabMiAu.csproj",
         "projectName": "LabMiAu",
-        "projectPath": "C:\\Main\\GitHub\\GitActions\\LabMiAu.csproj",
+        "projectPath": "C:\\Main\\GitActions\\LabMiAu.csproj",
         "packagesPath": "C:\\Users\\maksp\\.nuget\\packages\\",
-        "outputPath": "C:\\Main\\GitHub\\GitActions\\obj\\",
+        "outputPath": "C:\\Main\\GitActions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,6 +58,12 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.13, )"
+            },
+            "docfx.console": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.59.4, )"
             }
           },
           "imports": [

@@ -1,0 +1,84 @@
+
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="LabMiAu.Common.html" name="" title="LabMiAu.Common">LabMiAu.Common</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="LabMiAu.Common.GoogleApiHelper.html" name="" title="GoogleApiHelper">GoogleApiHelper</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="LabMiAu.Controllers.html" name="" title="LabMiAu.Controllers">LabMiAu.Controllers</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="LabMiAu.Controllers.HomeController.html" name="" title="HomeController">HomeController</a>
+                          </li>
+                          <li>
+                              <a href="LabMiAu.Controllers.UserController.html" name="" title="UserController">UserController</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="LabMiAu.Data.html" name="" title="LabMiAu.Data">LabMiAu.Data</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="LabMiAu.Data.ApplicationDbContext.html" name="" title="ApplicationDbContext">ApplicationDbContext</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="LabMiAu.Migrations.html" name="" title="LabMiAu.Migrations">LabMiAu.Migrations</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="LabMiAu.Migrations.addPropToUsersAndAddFirms.html" name="" title="addPropToUsersAndAddFirms">addPropToUsersAndAddFirms</a>
+                          </li>
+                          <li>
+                              <a href="LabMiAu.Migrations.addUsersKeyToDB.html" name="" title="addUsersKeyToDB">addUsersKeyToDB</a>
+                          </li>
+                          <li>
+                              <a href="LabMiAu.Migrations.addUsersToDB.html" name="" title="addUsersToDB">addUsersToDB</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="LabMiAu.Models.html" name="" title="LabMiAu.Models">LabMiAu.Models</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="LabMiAu.Models.Company.html" name="" title="Company">Company</a>
+                          </li>
+                          <li>
+                              <a href="LabMiAu.Models.ErrorViewModel.html" name="" title="ErrorViewModel">ErrorViewModel</a>
+                          </li>
+                          <li>
+                              <a href="LabMiAu.Models.User.html" name="" title="User">User</a>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
