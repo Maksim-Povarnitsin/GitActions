@@ -148,19 +148,6 @@ references:
   isSpec: "True"
   fullName: LabMiAu.Controllers.HomeController.OauthCallback
   nameWithType: HomeController.OauthCallback
-- uid: LabMiAu.Controllers.HomeController.OauthCallback2
-  name: OauthCallback2()
-  href: api/LabMiAu.Controllers.HomeController.html#LabMiAu_Controllers_HomeController_OauthCallback2
-  commentId: M:LabMiAu.Controllers.HomeController.OauthCallback2
-  fullName: LabMiAu.Controllers.HomeController.OauthCallback2()
-  nameWithType: HomeController.OauthCallback2()
-- uid: LabMiAu.Controllers.HomeController.OauthCallback2*
-  name: OauthCallback2
-  href: api/LabMiAu.Controllers.HomeController.html#LabMiAu_Controllers_HomeController_OauthCallback2_
-  commentId: Overload:LabMiAu.Controllers.HomeController.OauthCallback2
-  isSpec: "True"
-  fullName: LabMiAu.Controllers.HomeController.OauthCallback2
-  nameWithType: HomeController.OauthCallback2
 - uid: LabMiAu.Controllers.HomeController.Privacy
   name: Privacy()
   href: api/LabMiAu.Controllers.HomeController.html#LabMiAu_Controllers_HomeController_Privacy

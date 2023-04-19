@@ -32,10 +32,7 @@ namespace LabMiAu.Controllers
         {
             return RedirectPermanent(GoogleApiHelper.GetOauthUri());
         }
-        public IActionResult OauthCallback2()
-        {
-            return View();
-        }
+
         public IActionResult OauthCallback(string code, string error, string state)
         {
             try
@@ -91,7 +88,7 @@ namespace LabMiAu.Controllers
                 throw ex;
             }
 
-            return RedirectToAction("OauthCallback2", "Home");
+            return View();
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
