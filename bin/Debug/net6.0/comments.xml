@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LabMiAu</name>
+    </assembly>
+    <members>
+        <member name="T:LabMiAu.Common.GoogleApiHelper">
+            <summary>
+            Хелпер тест2
+            </summary>
+        </member>
+        <member name="T:LabMiAu.Migrations.addUsersToDB">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addUsersToDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addUsersToDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addUsersToDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:LabMiAu.Migrations.addUsersKeyToDB">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addUsersKeyToDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addUsersKeyToDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addUsersKeyToDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:LabMiAu.Migrations.addPropToUsersAndAddFirms">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addPropToUsersAndAddFirms.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addPropToUsersAndAddFirms.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LabMiAu.Migrations.addPropToUsersAndAddFirms.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

@@ -970,3 +970,4 @@ C:\Main\GitActions\bin\Debug\net6.0\_site\search-stopwords.json
 C:\Main\GitActions\bin\Debug\net6.0\docfx_project\docfx_project\docfx.json
 C:\Main\GitActions\bin\Debug\net6.0\docfx_project\_site\manifest.json
 C:\Main\GitActions\bin\Debug\net6.0\docfx_project\_site\search-stopwords.json
+C:\Main\GitActions\bin\Debug\net6.0\comments.xml
